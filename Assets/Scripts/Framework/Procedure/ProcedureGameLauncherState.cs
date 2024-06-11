@@ -9,7 +9,7 @@ namespace GameFrameX.Procedure
     /// <summary>
     /// 启动热更新游戏
     /// </summary>
-    public sealed class ProcedureGameLauncherState : ProcedureBase
+    public sealed class ProcedureGameLauncherState : GSProcedureBase
     {
         protected override void OnEnter(IFsm<IProcedureManager> procedureOwner)
         {

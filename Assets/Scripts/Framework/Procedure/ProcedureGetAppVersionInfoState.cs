@@ -15,7 +15,7 @@ namespace GameFrameX.Procedure
     /// <summary>
     /// 获取版本信息
     /// </summary>
-    public sealed class ProcedureGetAppVersionInfoState : ProcedureBase
+    public sealed class ProcedureGetAppVersionInfoState : GSProcedureBase
     {
         protected override void OnEnter(IFsm<IProcedureManager> procedureOwner)
         {

@@ -7,7 +7,7 @@ using YooAsset;
 
 namespace GameFrameX.Procedure
 {
-    internal sealed class ProcedureCreateDownloader : ProcedureBase
+    internal sealed class ProcedureCreateDownloader : GSProcedureBase
     {
         protected override void OnEnter(IFsm<IProcedureManager> procedureOwner)
         {

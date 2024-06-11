@@ -8,7 +8,7 @@ using YooAsset;
 
 namespace GameFrameX.Procedure
 {
-    internal sealed class ProcedureUpdateStaticVersion : ProcedureBase
+    internal sealed class ProcedureUpdateStaticVersion : GSProcedureBase
     {
         protected override void OnEnter(IFsm<IProcedureManager> procedureOwner)
         {

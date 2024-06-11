@@ -9,7 +9,7 @@ using UnityEngine;
 
 namespace GameFrameX.Procedure
 {
-    internal sealed class ProcedurePatchInit : ProcedureBase
+    internal sealed class ProcedurePatchInit : GSProcedureBase
     {
         protected override void OnEnter(IFsm<IProcedureManager> procedureOwner)
         {

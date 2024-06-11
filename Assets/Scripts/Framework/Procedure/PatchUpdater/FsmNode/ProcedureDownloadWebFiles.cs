@@ -8,7 +8,7 @@ using YooAsset;
 
 namespace GameFrameX.Procedure
 {
-    internal sealed class ProcedureDownloadWebFiles : ProcedureBase
+    internal sealed class ProcedureDownloadWebFiles : GSProcedureBase
     {
         protected override void OnEnter(IFsm<IProcedureManager> procedureOwner)
         {

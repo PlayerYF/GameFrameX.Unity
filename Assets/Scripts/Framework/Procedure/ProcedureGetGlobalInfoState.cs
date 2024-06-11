@@ -12,7 +12,7 @@ namespace GameFrameX.Procedure
     /// <summary>
     /// 获取全局信息
     /// </summary>
-    public sealed class ProcedureGetGlobalInfoState : ProcedureBase
+    public sealed class ProcedureGetGlobalInfoState : GSProcedureBase
     {
         protected override void OnEnter(IFsm<IProcedureManager> procedureOwner)
         {

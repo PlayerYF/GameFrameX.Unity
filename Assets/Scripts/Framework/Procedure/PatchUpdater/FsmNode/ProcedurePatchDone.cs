@@ -6,7 +6,7 @@ using UnityEngine;
 
 namespace GameFrameX.Procedure
 {
-    internal sealed class ProcedurePatchDone : ProcedureBase
+    internal sealed class ProcedurePatchDone : GSProcedureBase
     {
         protected override void OnEnter(IFsm<IProcedureManager> procedureOwner)
         {
