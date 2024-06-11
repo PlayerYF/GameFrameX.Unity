@@ -20,3 +20,7 @@ Logs
 Android_Symbols
 Assets/StreamingAssets/build_info
 Assets/StreamingAssets/build_info.meta
+Assets/PluginsEditor/vFavorites
+Assets/PluginsEditor/vFolders
+Assets/PluginsEditor/vHierarchy
+Assets/PluginsEditor/vTabs
