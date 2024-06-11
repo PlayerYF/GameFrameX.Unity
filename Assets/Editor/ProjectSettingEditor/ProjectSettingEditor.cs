@@ -9,12 +9,12 @@ namespace Unity.Editor
         [InitializeOnLoadMethod]
         static void Start()
         {
-            PlayerSettings.SetApplicationIdentifier(BuildTargetGroup.Android, "com.blank.gfx");
-            PlayerSettings.SetApplicationIdentifier(BuildTargetGroup.iOS, "com.blank.gfx");
+            PlayerSettings.SetApplicationIdentifier(BuildTargetGroup.Android, "com.game.gfx");
+            PlayerSettings.SetApplicationIdentifier(BuildTargetGroup.iOS, "com.game.gfx");
             PlayerSettings.SplashScreen.show = false;
             PlayerSettings.SplashScreen.showUnityLogo = false;
             PlayerSettings.productName = "GFX";
-            PlayerSettings.companyName = "ALianBlank";
+            PlayerSettings.companyName = "GameSpace";
             PlayerSettings.defaultInterfaceOrientation = UIOrientation.Portrait;
             PlayerSettings.allowedAutorotateToLandscapeLeft = false;
             PlayerSettings.allowedAutorotateToLandscapeRight = false;
